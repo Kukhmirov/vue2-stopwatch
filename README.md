@@ -1,5 +1,8 @@
 # stopwatch-vue
 
+## Visual
+<a href="https://vue2-stopwatch.vercel.app/" > Visual </a>
+
 ## Project setup
 ```
 npm install
