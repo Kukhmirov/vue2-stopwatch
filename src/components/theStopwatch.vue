@@ -103,7 +103,7 @@ export default {
         },
         run() {
             this.endTime = '';
-            this.deadline = new Date((this.minutes * 60) * 1000 (this.seconds * 1000) + Date.now());
+            this.deadline = new Date((this.minutes * 60) * 1000 + (this.seconds * 1000) + Date.now());
             this.isActive = true;
             this.requestAnimationId = requestAnimationFrame(this.tick);
         },
